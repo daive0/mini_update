@@ -1,0 +1,27 @@
+{
+  "versions": {
+    "common": "expo.common1.0.0",
+    "common_live": "expo.common.live1.0.0",
+    "market": "expo.market1.0.0",
+    "market_live": "expo.market.live3.7.0",
+    "club": "expo.club1.0.2",
+    "club_live": "expo.club.live1.0.1",
+    "cbd": "expo.cbd8.1.1",
+    "cbd_live": "expo.cbd.live6.4.2",
+    "ciff": "expo.ciff1.0.0",
+    "ciff_live": "expo.ciff.live1.7.3",
+    "ciff_live_lbs": "expo.ciff.lbs1.7.5",
+    "ciff_sh": "expo.ciff.sh2.8.6",
+    "ciff_sh_live": "expo.ciff.sh.live2.8.0",
+    "ybz": "expo.ybz1.0.0",
+    "ybz_live": "expo.ybz.live1.5.0",
+    "cbd2": "expo.cbd21.0.0",
+    "cbd2_live": "expo.cbd2.live1.0.0",
+    "scmc": "expo.scmc1.0.0",
+    "scmc_live": "expo.scmc.live1.0.0",
+    "sxjc": "expo.sxjc1.0.0",
+    "sxjc_live": "expo.sxjc.live1.0.0",
+    "cdjjz": "expo.cdjjz1.0.0",
+    "cdjjz_live": "expo.cdjjz.live1.0.0"
+  }
+}

@@ -1,0 +1,16 @@
+[项目底子]
+框架 = React + TypeScript
+状态管理 = Redux Toolkit
+UI = Material UI
+路由 = React Router 6
+API = RESTful + axios
+
+[代码规矩]
+组件结构 = index.tsx + styles.ts + types.ts
+样式方案 = styled-components
+错误处理 = 统一错误边界组件
+
+[AI规则]
+组件要加性能优化（React.memo）
+表单必须有验证和错误提示
+列表要考虑空状态和加载状态
