@@ -1,9 +1,13 @@
 {
-  "name": "miniprogram-build-and-upload",
+  "name": "mp-upload-cli",
   "version": "1.0.0",
-  "description": "微信小程序构建和上传工具",
+  "description": "微信小程序上传命令行工具",
   "main": "bau.js",
+  "bin": {
+    "mp-upload": "./bau.js"
+  },
   "scripts": {
+    "install-global": "npm install -g .",
     "build": "node bau.js",
     "weapp:common": "git pull && cross-env TAG=common taro build --type weapp",
     "weapp:common_live": "git pull && cross-env TAG=common_live taro build --type weapp",
@@ -77,7 +81,7 @@
   },
   "dependencies": {
     "cross-env": "^7.0.3",
-    "miniprogram-ci": "./miniprogram-ci-2.1.14.tgz"
+    "miniprogram-ci": "^1.8.33"
   },
   "engines": {
     "node": ">=12.0.0"

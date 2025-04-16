@@ -6,11 +6,10 @@ const fs = require('fs');
 const path = require('path');
 
 // 脚本配置目录
-const SCRIPTS_DIR = process.env.SCRIPTS_DIR || path.resolve(__dirname);
+const SCRIPTS_DIR = process.env.SCRIPTS_DIR || path.dirname(fs.realpathSync(__filename));
 
 // 项目目录
 const PROJECT_DIR = process.env.PROJECT_DIR || 'D:\\git\\expo-taro';
-
 
 // 构建目录映射表
 const BUILD_DIR_MAP = {
